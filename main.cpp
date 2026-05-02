@@ -34,7 +34,7 @@ void setup() {
 void loop() {
 
     int     partno = 0;
-    char    description[] = ".............";
+    char    description[100-] = ".";
     int     fault = 0;
     char    faultdescription[133] = ".";
     int     vbus = 0xff;
